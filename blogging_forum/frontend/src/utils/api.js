@@ -1,5 +1,4 @@
-const API_URL = "http://localhost:5000/api";
-
+const API_URL = "https://blogging-forum-api.vercel.app" || "http://localhost:5000/api";
 // --- HELPERS ---
 const getHeaders = () => {
   const token = localStorage.getItem("blog_token");
